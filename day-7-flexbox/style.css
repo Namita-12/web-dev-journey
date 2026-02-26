@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  display: flex;              /* activates flexbox */
+  justify-content: center;    /* centers horizontally */
+  align-items: center;        /* centers vertically */
+  gap: 20px;                  /* space between boxes */
+  height: 100%;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
